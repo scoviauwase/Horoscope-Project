@@ -1,0 +1,24 @@
+h1{
+    color: gray;
+    margin-bottom: 12px;
+    font-family: monospace;
+    
+}
+
+#bigBackground{
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    margin-left: 40px;
+    
+}
+
+body{
+    background: lightblue;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    
+}

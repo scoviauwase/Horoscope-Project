@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andela Web Project</title>
+    <link rel="stylesheet" href="hello.css">
+  </head>
+  <body>
+    <div id="bigBackground">
+      <div id="mainBackground">
+        <h1>Find your Horoscope Website</h1>
+        <p>
+          choose your date in the box provided below and get your horoscope.
+        </p>
+        <label for="input">Enter your birthdate Below</label>
+        <input type="date" id="inputed" max="2022-12-31" />
+        <button id="findBtn">Find</button>
+      </div>
+      <div id="outputSpace">
+        <h4></h4>
+        <p id="horoscopeContents"></p>
+        <button id="searchMore">
+            <a href="https://www.horoscope.com/us/index.aspx" target="_blank">
+            Search More
+            </a>
+        </button>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
